@@ -334,7 +334,7 @@ inline char findChar(long long pos, long long len) {
     }
 }
 
-//[FUNCTIA countChar CU MEMOIZATION]
+//[FUNCTIA countChar CU MEMOIZARE - NUMARA RECURSIV IN FIECARE SFERT]
 long long countChar(char c, long long pos, long long len) {
     if (pos <= 0) return 0;
 
