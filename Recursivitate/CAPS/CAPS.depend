@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1765282984 source:c:\users\ramon\desktop\coding\pbinfo\recursivitate\caps\main.cpp
-	<fstream>
-	<iostream>
-	<string>
-	<vector>
-	<map>
-
