@@ -10,5 +10,6 @@ pbinfo: 9 probleme rez + CAPS OTW (75/100 rn), 30 exercitii, 22.5% succes rate (
 leet: 17, 10 easy, 5 medium, 2 hard, 30.88% acceptance rate
 
 [28/12/2025]
-pbinfo: 23 probleme rez + CAPS OTW (75/100 rn), 30 exercitii, 29.87% succes rate (fuh nota10 sigur e ceva gresit in teste. gen 8 submission uri gresite pe o easy 😭💀)
+pbinfo: 27 probleme rez + CAPS OTW (75/100 rn), 30 exercitii, 32.53% succes rate (fuh nota10 sigur e ceva gresit in teste. gen 8 submission uri gresite pe o easy 😭💀)
+AL DOILE README COMMIT SIUU. M-am tinut de cuv si am mai bagat 4 probleme fresh rauuu toate medii
 leet: 17, 10 easy, 5 medium, 2 hard, 30.88% acceptance rate
