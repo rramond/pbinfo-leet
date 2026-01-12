@@ -24,3 +24,5 @@ am atins 100 de surse trimise‼️‼️
 leet: 18, 11 easy, 5 medium, 2 hard, 31.43% acceptance rate
 
 GRIND BEGINS
+
+Mic update: an vazut ca nu e nimic in diverse chiar daca am fct problemele so va trebui sa le refac 😭💀
