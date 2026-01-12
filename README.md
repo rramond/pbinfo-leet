@@ -22,3 +22,5 @@ pbinfo: 34 probleme rez , 30 exercitii, 34.69% succes rate.
 am atins 100 de surse trimise‼️‼️
 
 leet: 18, 11 easy, 5 medium, 2 hard, 31.43% acceptance rate
+
+GRIND BEGINS
