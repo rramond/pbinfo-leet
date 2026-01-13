@@ -4,9 +4,8 @@
     {
       "type": "cppbuild",
       "label": "C/C++: g++.exe build active file",
-      "command": "C:\\msys2\\ucrt64\\bin\\g++.exe",
+      "command": "g++",
       "args": [
-        "-fdiagnostics-color=always",
         "-g",
         "${file}",
         "-o",
@@ -19,22 +18,7 @@
       "group": {
         "kind": "build",
         "isDefault": true
-      },
-      "detail": "compiler: C:\\msys2\\ucrt64\\bin\\g++.exe"
-    },
-    {
-      "label": "Run C++ (build + run)",
-      "type": "shell",
-      "command": "${fileBasenameNoExtension}.exe",
-      "options": {
-        "cwd": "${fileDirname}"
-      },
-      "dependsOn": "C/C++: g++.exe build active file",
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
-      "problemMatcher": []
+      }
     }
   ]
 }

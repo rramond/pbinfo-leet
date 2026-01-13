@@ -15,9 +15,8 @@ void pattern(int l, int c, int lat, bool plin)
         return;
     }
     lat /= 2;
-    // Partea centrala este goala
+    
     pattern(l, c, lat, true);
-    // Celelalte 3 parti sunt pline
     pattern(l, c + lat, lat, plin);
     pattern(l + lat, c, lat, plin);
     pattern(l + lat, c + lat, lat, plin);
