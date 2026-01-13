@@ -26,3 +26,7 @@ leet: 18, 11 easy, 5 medium, 2 hard, 31.43% acceptance rate
 GRIND BEGINS
 
 Mic update: an vazut ca nu e nimic in diverse chiar daca am fct problemele so va trebui sa le refac 😭💀
+
+[13/01/26] Already failed nu am reusit sa bag 5 azi, dar am facut cetave si am 2 pe work in progress care sunt pretty much doar mate, am mult de exersat si as merge un pic mai pe teorie rn.
+
+maine o sa fie grind mai puternic ca am si meditatii.
