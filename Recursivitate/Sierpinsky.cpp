@@ -1,3 +1,6 @@
+
+// limita memorie: 0.2 MB heap/ 0.2 MB stack
+
 #include <iostream>
 #include <fstream>
 #include <cmath>
@@ -10,13 +13,15 @@ ofstream fout("sierpinski.out");
 const short int N = 729; // 3^6
 
 const int ND = 9; // nr de deplasari
-//vestori de deplasari
+//parametrizam deplasarile catre centrele submatricilor 
 const int DL[ND] = {0, -1, -1, -1,  1, 1, 1, 0, 0};
 const int DC[ND] = {0, -1,  0,  1, -1, 0, 1, -1, 1};
 
 //bool a[N][N];
-bitset<N> a[N];
-
+bitset<N> a[N]; 
+// folosim bitset pentru a economisi memorie
+//matrice cu fiecare valoare pe un bit in loc de octet
+//bitset merge doar cu valori de tip bool
 
 void Sierpinski(int l, int c, int lat, bool plin)
 {
@@ -30,9 +35,11 @@ void Sierpinski(int l, int c, int lat, bool plin)
 
     for(int i = 0; i < ND; i++) {
         if (i == 0){
+//          Submatricea centrala este plina cu 1 (true) 
             Sierpinski(l + DL[i] * lat, c + DC[i] * lat, lat, true);
             continue;
         }
+//        Celelalte submatrice sunt goale, la fel ca cea parinte (false)        
         Sierpinski(l + DL[i] * lat, c + DC[i] * lat, lat, plin);
     }
 }
