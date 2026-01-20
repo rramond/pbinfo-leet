@@ -31,7 +31,7 @@ Mic update: an vazut ca nu e nimic in diverse chiar daca am fct problemele so va
 
 maine o sa fie grind mai puternic ca am si meditatii.
 
-[29/01/26] Update Update la stats ca nu am mai facut de mult
+[19/01/26] Update Update la stats ca nu am mai facut de mult
 
 pbinfo: 39 probleme rez , 50+ exercitii, 32.23% succes rate. (A scazut ca imi bag pla in fatal signal 11 si EC-uri degeaba smr de farmez dalea usoare de a 9-a pt rating fmm)
 
