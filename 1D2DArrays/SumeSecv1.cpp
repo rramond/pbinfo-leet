@@ -3,6 +3,8 @@
 #include <climits>
 using namespace std;
 
+// 1D array prefix sum to find the interval with the maximum sum over m queries
+
 int main() {
     int n;
     cin >> n;
