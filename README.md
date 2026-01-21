@@ -27,6 +27,24 @@ GRIND BEGINS
 
 Mic update: an vazut ca nu e nimic in diverse chiar daca am fct problemele so va trebui sa le refac 😭💀
 
-[13/01/26] Already failed nu am reusit sa bag 5 azi, dar am facut cetave si am 2 pe work in progress care sunt pretty much doar mate, am mult de exersat si as merge un pic mai pe teorie rn.
+[13/01/26]
+Already failed nu am reusit sa bag 5 azi, dar am facut cetave si am 2 pe work in progress care sunt pretty much doar mate, am mult de exersat si as merge un pic mai pe teorie rn.
 
 maine o sa fie grind mai puternic ca am si meditatii.
+
+[19/01/26]
+Update Update la stats ca nu am mai facut de mult
+
+pbinfo: 39 probleme rez , 50+ exercitii, 32.23% succes rate. (A scazut ca imi bag pla in fatal signal 11 si EC-uri degeaba smr de farmez dalea usoare de a 9-a pt rating fmm)
+
+leet: 20, 11 easy, 7 medium, 2 hard, 34.25% acceptance rate
+
+To this day inca nu mi-am reparat compilerul NICI PE PC NICI PE LAPTOP🙏😭💀🥀🥀🥀
+Dar lowk, se vede un progres 🥳 OJI 🔜
+
+[20/01/2026]
+pbinfo: 43 probleme rez , 50+ exercitii, 32.09% succes rate.
+
+leet: 22, 11 easy, 9 medium, 2 hard, 35.44% acceptance rate
+
+Am spamat EC din prostie efectiv

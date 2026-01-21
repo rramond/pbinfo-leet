@@ -23,6 +23,8 @@ void merge(int a[], int l, int mid, int r){
     
     delete [] L;
     delete [] R;
+    L = nullptr;
+    R = nullptr;
 }
 
 void mergeSort(int a[], int l, int r) {
