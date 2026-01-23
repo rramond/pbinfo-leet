@@ -252,15 +252,6 @@ void IsEmptyQueue() {
     }
 }
 
-// ************************************** STL QUEUE *************************************** //
 
 
 
-// queue <TYPE> queue_name;  // syntax for STL queue
-// 
-queue<int> q;  // creates a queue named q of integers
-
-q.push(10);  // adds 10 to the rear of the queue
-
-cout << q.front() << " " << q.back() << endl;   // return a reference to the element at front
-  // return a reference to the element at rear
