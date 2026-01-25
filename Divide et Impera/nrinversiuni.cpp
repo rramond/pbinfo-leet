@@ -22,7 +22,6 @@ long long mergeAndCount(int v[], int temp[], int left, int mid, int right) {
     while (j <= right)
         temp[k++] = v[j++];
     
- 
     for (i = left; i <= right; i++)
         v[i] = temp[i];
     
