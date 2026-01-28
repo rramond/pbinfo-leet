@@ -54,3 +54,9 @@ Am spamat EC din prostie efectiv
 pbinfo: 55 probleme rez , 50+ exercitii, 32.93% succes rate.
 
 leet: 22, 11 easy, 9 medium, 2 hard, 35.44% acceptance rate
+
+[28/01/2026]
+
+pbinfo: 71 probleme rez , 50+ exercitii, 36.79% succes rate.
+
+leet: 22, 11 easy, 9 medium, 2 hard, 35.44% acceptance rate
