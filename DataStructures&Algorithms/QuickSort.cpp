@@ -11,6 +11,7 @@ void mySwap(T &a, T &b) {
 }
 
 template <typename T>
+// using the median-of-three method to choose pivot, we can reduce the chances of worst-case performance on already sorted or nearly sorted arrays, since the pivot will be closer to the median value of the array segment.
 void medianOfThree(T a[], int low, int high) {
     int mid = low + (high - low)/2;
     if (a[mid] < a[low]) mySwap(a[mid], a[low]);
@@ -20,6 +21,10 @@ void medianOfThree(T a[], int low, int high) {
 }
 
 template <typename T>
+// we use Hoare's partitioning scheme 
+// to partition the array, because it performs better than Lomuto's scheme, since it does fewer swaps and works well with duplicate elements.
+// it works by initializing two pointers that start at the ends of the array segment being partitioned, and move towards each other until they find elements that are on the wrong side of the pivot. When such elements are found, they are swapped. This continues until the pointers meet.
+// in the end, it returns the index of the partition point.
 int hoarePartition(T a[], int low, int high){
     medianOfThree(a, low, high);
     T pivot = a[low];
@@ -37,6 +42,28 @@ int hoarePartition(T a[], int low, int high){
         mySwap(a[i], a[j]);
     }
 }
+
+// three way partitioning can be implemented to handle arrays with many duplicate elements more efficiently.
+// template <typename T>
+// int threeWayPartition(T a[], int low, int high, T pivot) {
+//     int lt = low;     // We initialize lt to be the part that is less than pivot
+//     int gt = high;    // We initialize gt to be the part that is greater than pivot
+//     int i = low;      // We scan the array from left to right
+
+//     while (i <= gt) {
+//         if (a[i] < pivot) {
+//             mySwap(a[lt], a[i]);
+//             lt++;
+//             i++;
+//         } else if (a[i] > pivot) {
+//             mySwap(a[i], a[gt]);
+//             gt--;
+//         } else {
+//             i++;
+//         }
+//     }
+//     return lt; // return the index of the first element equal to pivot
+// }
 
 template <typename T>
 void quickSort(T a[], int low, int high){
