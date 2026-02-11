@@ -1,0 +1,25 @@
+ ---- Citire ----
+
+ cin.getline(string, size, delimiter); - citeste si spatii, tab, enter pana la delimiter(daca exista) sau pana la null
+ cin.get(string, size, delimiter); - citeste si spatii, tab, enter pana la delimiter(daca exista) sau pana la null
+ cin.ignore(size, delimiter); - ignora size caractere sau pana la delimiter(daca exista)
+ cin >> string; - citeste pana la primul spatiu, tab, enter
+ cin >> ws; - ignora spatii, tab, enter
+
+ ---- Methods ----
+ char * strstr(const char* s1, const char *s2) returneaza adresa primei aparitii a lui s2 ca secventa in s1,
+ daca s2 apare ca secventa ins1 sau NULL in caz contrar
+
+ eg. s1 = "Ana are mere si pere"
+     s2 = "re"
+     strstr(s1, s2) -> adresa re (din are) 
+
+strtok -> separa o propozitie in cuvinte (secvente continue de carac care nu sunt separatori)
+
+eg. s = "Ana are mere, pere si alune"
+
+char * p = strtok(s, " ,.");
+while(p != NULL){
+    //prelucrare p
+    p = strtok(NULL, " ,.");
+}
