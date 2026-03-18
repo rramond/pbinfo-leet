@@ -3,9 +3,10 @@
 using namespace std;
 
 const int N = 10; // Dimensiunea maxima a solutiei
+const int DIAG = 2*N;
 
 int n, sol[N];
-bool col[N], DP[N], DS[N];
+bool col[N], DP[DIAG], DS[DIAG];
 
 void afisare(){
     for(int i = 0; i < n; i++){
