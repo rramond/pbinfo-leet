@@ -7,5 +7,7 @@ a little help from my prof or Claude, but hey, it's part of the journey
 ## Goals for this journey
 
 -> grind enough leet to get the Big-O notebook with leetcoins
+
 -> win a leet code contest
+
 -> get to 1000 total problems solved (leet + pb)
