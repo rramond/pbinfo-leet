@@ -1,7 +1,5 @@
 # COMPETITIVE PROGRAMING PROBLEMS
 
-## And theoretical information & algorithms
-
     I am still adding new theory and problems as i solve them. Most problems are done solo, some I took
     a little help from my prof or Claude, but hey, it's part of the journey
 
