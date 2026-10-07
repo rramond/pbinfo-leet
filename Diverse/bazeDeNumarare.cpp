@@ -1,3 +1,6 @@
+#include <iostream>
+#include <string>
+using namespace std;
 // bazam numeratie b, b>10 => folosim cifrele 0, 1, ... b;
 
 //daca baza de numeratie b, este b > 10, trebuie sa facem o conventie pentru cifrele >= 10
@@ -60,3 +63,30 @@ bool predecesor(int c[], int &n, int b) {
     }
     return true;
 }
+
+//douaebaze pb#946
+// orice nr de 2 cifre in baza 2 (orice grup de 2 cifre binare pe pozitii consecutive) corespunde unei cifre din baza 4
+//  00 -> 0
+//  01 -> 1
+//  10 -> 2
+//  11 -> 3
+
+void doubabaze(string& sb2){
+    int nrCif = (int)sb2.length();
+    int pc = 0;
+    if(nrCif % 2 != 0){
+        cout << sb2[0];
+        pc++;
+    }
+    for(int i = pc; i < nrCif; i += 2){
+        int cif4 = 0;
+        if(sb2[i] == '1') cif4 += 2;
+        if(sb2[i+1] == '1') cif4 += 1;
+        cout << cif4;
+    }
+}
+
+
+
+
+
