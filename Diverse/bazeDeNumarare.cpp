@@ -65,6 +65,7 @@ bool predecesor(int c[], int &n, int b) {
 }
 
 //douaebaze pb#946
+// putem trece dintr-o baza in alta fara a trece intermediar prin baza 10 daca una dintre baze este o putere a celeilalte (eg. 2-4, 2-8, 3-9 ..)
 // orice nr de 2 cifre in baza 2 (orice grup de 2 cifre binare pe pozitii consecutive) corespunde unei cifre din baza 4
 //  00 -> 0
 //  01 -> 1
