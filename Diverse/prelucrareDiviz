@@ -1,0 +1,19 @@
+// DEF => fie a, b nr nat diferite de 0, spunem ca b il divide pe a sau ca a este divizibil cu b daca exista un q NAT si r
+// astfel incat :
+
+// 1) a = b * q + r
+// 2) r este NAT, r < b
+
+// Deci a divizibil cu b <=> restul impartirii lui a la b este 0
+// Notatie daca n nr nat != 0, notam cu Dn multimea divizorilor lui n, adica Dn = { d | d nr nat, n divizibil d }
+// Notatie: putem grupa divizorii lui n in perechi de 2 si avem :
+// D'n = { (a,b) | a,b nat != 0, a <= b, a*b = n }
+
+// eg D'20 = {(1,20, 2,10, 4,5)}
+
+// OBS : 
+
+// 1. daca (a1, b1) & (a2, b2) apartine D'n si a1 < a1, atunci b1 > b2
+// 2. Pt orice d nat != 0 cu n/2 < d < n, d NU apartine Dn
+// 3. n este pp daca are o pereche cu (a,b) a = b SAU daca are nr impar de divizori
+// 4. Daca (a,b) apartine D'n, atunci a^2 <= n
