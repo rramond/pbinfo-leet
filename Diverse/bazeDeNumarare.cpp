@@ -1,6 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
 // bazam numeratie b, b>10 => folosim cifrele 0, 1, ... b;
 
 //daca baza de numeratie b, este b > 10, trebuie sa facem o conventie pentru cifrele >= 10
@@ -23,21 +20,6 @@ using namespace std;
 // succesor x -> parsare dreapta-stanga, cautand cel mai mic i cu Ci < b-1
 // daca exista, incrementam Ci si setam toate Cj cu j>i la 0
 // daca nu exista, atunci x este de forma b-1, b-1, ..., b-1 => succesorul este 1, 0, 0, ..., 0 (cu n+1 cifre)
-
-// eg: x = 3125555 (b=6)
-//     x+1 = 3130000 (b=6)
-
-// eg2: x = 55555 (b=6)
-//      x+1 = 100000 (b=6)
-
-
-//npredecsor x -> parsare dreapta-stanga, cautand cel mai mic i cu Ci > 0
-// daca exista, decrementam Ci si setam toate Cj cu j>i la b-1
-// daca nu exista, atunci x este de forma 0, 0, ..., 0 => nu are predecesor
-
-// exemplu: cifrele lui x sunt in c[0..n-1], c[0] = cifra cea mai semnificativa
-// eg: x = 3125555 (b=6) -> c = {3,1,2,5,5,5,5}, n = 7
-
 void succesor(int c[], int &n, int b) {
     int i = n - 1;
     while (i >= 0 && c[i] == b - 1)
@@ -51,6 +33,20 @@ void succesor(int c[], int &n, int b) {
     }
 }
 
+// eg: x = 3125555 (b=6)
+//     x+1 = 3130000 (b=6)
+
+// eg2: x = 55555 (b=6)
+//      x+1 = 100000 (b=6)
+
+
+// predecesor x -> parsare dreapta-stanga, cautand cel mai mic i cu Ci > 0
+// daca exista, decrementam Ci si setam toate Cj cu j>i la b-1
+// daca nu exista, atunci x este de forma 0, 0, ..., 0 => nu are predecesor
+
+// exemplu: cifrele lui x sunt in c[0..n-1], c[0] = cifra cea mai semnificativa
+// eg: x = 3125555 (b=6) -> c = {3,1,2,5,5,5,5}, n = 7
+
 bool predecesor(int c[], int &n, int b) {
     int i = n - 1;
     while (i >= 0 && c[i] == 0)
@@ -63,31 +59,3 @@ bool predecesor(int c[], int &n, int b) {
     }
     return true;
 }
-
-//douaebaze pb#946
-// putem trece dintr-o baza in alta fara a trece intermediar prin baza 10 daca una dintre baze este o putere a celeilalte (eg. 2-4, 2-8, 3-9 ..)
-// orice nr de 2 cifre in baza 2 (orice grup de 2 cifre binare pe pozitii consecutive) corespunde unei cifre din baza 4
-//  00 -> 0
-//  01 -> 1
-//  10 -> 2
-//  11 -> 3
-
-void doubabaze(string& sb2){
-    int nrCif = (int)sb2.length();
-    int pc = 0;
-    if(nrCif % 2 != 0){
-        cout << sb2[0];
-        pc++;
-    }
-    for(int i = pc; i < nrCif; i += 2){
-        int cif4 = 0;
-        if(sb2[i] == '1') cif4 += 2;
-        if(sb2[i+1] == '1') cif4 += 1;
-        cout << cif4;
-    }
-}
-
-
-
-
-
