@@ -3,7 +3,10 @@
 using namespace std;
  
  
- // Hardware can only store numbers so big (int - 9 digits, long long - 18 digits), but for problems that require handling of really big numbers (factorials, combinatorics, etc.), we need to implement our own BIGINT class that can handle arbitrarily large integers by storing them in arrays or strings and implementing arithmetic operations manually.
+ // Hardware can only store numbers so big (int - 9 digits, long long - 18 digits),
+ // but for problems that require handling of really big numbers (factorials, combinatorics, etc.), 
+ // we need to implement our own BIGINT class that can handle arbitrarily large integers by storing 
+ // them in arrays or strings and implementing arithmetic operations manually.
 
 // Addition -> O(n) where n is the number of digits in the larger number
 vector<int> add(vector<int> a, vector<int> b) {
